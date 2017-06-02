@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "generator-cst-ui-seed",
+        "scope": null,
+        "escapedName": "generator-cst-ui-seed",
+        "name": "generator-cst-ui-seed",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/Kosala/prabu"
+    ]
+  ],
+  "_from": "generator-cst-ui-seed@latest",
+  "_id": "generator-cst-ui-seed@1.0.0",
+  "_inCache": true,
+  "_location": "/generator-cst-ui-seed",
+  "_nodeVersion": "4.6.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/generator-cst-ui-seed-1.0.0.tgz_1496333492889_0.19981658412143588"
+  },
+  "_npmUser": {
+    "name": "mrprabu",
+    "email": "ramachandraprabu@gmail.com"
+  },
+  "_npmVersion": "3.9.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "generator-cst-ui-seed",
+    "scope": null,
+    "escapedName": "generator-cst-ui-seed",
+    "name": "generator-cst-ui-seed",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npmjs.org/generator-cst-ui-seed/-/generator-cst-ui-seed-1.0.0.tgz",
+  "_shasum": "f83a70966907c7b98cf61ee3c6071e6e28d4e94f",
+  "_shrinkwrap": null,
+  "_spec": "generator-cst-ui-seed",
+  "_where": "/Users/Kosala/prabu",
+  "author": {
+    "name": "cst ui team"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "yeoman-generator": "^1.0.0",
+    "yosay": "^2.0.0"
+  },
+  "description": "yeoman generator for cst ui seed projects",
+  "devDependencies": {
+    "coveralls": "^2.12.0",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^20.0.0",
+    "nsp": "^2.6.3",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.6.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "f83a70966907c7b98cf61ee3c6071e6e28d4e94f",
+    "tarball": "https://registry.npmjs.org/generator-cst-ui-seed/-/generator-cst-ui-seed-1.0.0.tgz"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "files": [
+    "generators"
+  ],
+  "homepage": "",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "yeoman-generator"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "mrprabu",
+      "email": "ramachandraprabu@gmail.com"
+    }
+  ],
+  "name": "generator-cst-ui-seed",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "/generator-cst-ui-seed"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1 && jest"
+  },
+  "version": "1.0.0"
+}
